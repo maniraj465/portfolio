@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: aliceblue;
 }
 
 html {
@@ -36,7 +37,10 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  height: 10vh;
+  box-shadow: 1px 1px 10px 3px #7986cb;
+  background-color: aliceblue;
+
 }
 
 .nav-links {
@@ -423,10 +427,11 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-  height: 26vh;
+  height: 5vh;
   margin: 0 1rem;
 }
 
 footer p {
   text-align: center;
+  padding: 20px 0px;
 }
